@@ -1,13 +1,9 @@
-/* Estilos base */
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #eeeded;
   }
-  
   .contenedor {
     display: flex;
     justify-content: center;
@@ -16,13 +12,14 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap:wrap;
+    max-width: 300px;
+
   }
-  
   .caja {
     width: 80px;
     height: 80px;
-    background-color: #391b49d0;
+    background-color: #273827d0;
     color: white;
     display: flex;
     justify-content: center;
@@ -30,5 +27,8 @@ body {
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
+  }
+  .caja:hover{
+    background-color: rgb(30, 43, 30);
   }
   
