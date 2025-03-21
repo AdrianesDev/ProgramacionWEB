@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.contenedor-plans {
+    display: flex;
+    gap: 20px;
+}
+.plan-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative; /* Necesario para la cinta */
+}
+.plan-card:hover{
+  transform: translateY(-8px);
+}
+.popular {
+    border: 3px solid red
+}
+.popular::before {
+    content: "⭐ MÁS POPULAR";
+    position: absolute;
+    top: -10px;
+    transform: translateX(-50%);
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.precio {
+    color: rgb(196, 100, 27);
+    margin: 10px 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+button {
+    background:red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(173, 0, 0)
+}
