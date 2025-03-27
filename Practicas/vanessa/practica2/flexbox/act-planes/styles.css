@@ -79,3 +79,6 @@ button {
 button:hover {
     box-shadow: 0 10px 25px rgba(41, 39, 39, 0.15); /* Sombra más pronunciada */
 }
+ul {
+    list-style: none;
+}
