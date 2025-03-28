@@ -9,7 +9,7 @@ const myUndefinde = undefined;
 //tipos de datos
 //script 
 //Number
-//Boll
+//Boll (&&)
 //Float
 //Doubles
 //Null
