@@ -32,18 +32,37 @@
 // Si es menor de 13 es contenido para niños,
 // Si es mayor de 13 pero menor a 17 es contenido para adolescentes
 // Si es maoyor a 18 o mas es contenido para adultos
-let cumple = 13;
+//let cumple = 13;
 
-if (cumple < 13) {
-  console.log(`Contenido para niños`);
-} else if (cumple >= 13 && cumple <= 17) {
-  console.log(`Contenido para adolescentes`);
-} else   {
-  console.log(`Contenido para adultos`);
-}
+//if (cumple < 13) {
+//  console.log(`Contenido para niños`);
+//} else if (cumple >= 13 && cumple <= 17) {
+  //console.log(`Contenido para adolescentes`);
+//} else   {
+  //console.log(`Contenido para adultos`);
+//}
 
-//Sistemas si es de 90 a 100 es excelente
+//Sistemas de Calificacion 
+// si es de 90 a 100 es excelente
 //si es de 80 a 89 impriman muy bien
 // si es de 70 a 79 impriman buena calificacion 
 // si es de 60 a 69 impriman suficiente
 // si es menor de 60 impriman reprobado
+
+//TAREA
+let calificacion = 55
+if (calificacion >= 90 || calificacion>=100){
+  console.log(`Excelente`)
+}
+else if (calificacion>=80 || calificacion>=89) {
+  console.log(`Muy bien`)
+}
+else if(calificacion>=70 || calificacion>=79){
+  console.log(`Buena calificacion`)
+}
+else if(calificacion>=60 || calificacion>=69){
+  console.log(`Suficiente`)
+}
+else  {
+  console.log(`Reprobado`)
+}
