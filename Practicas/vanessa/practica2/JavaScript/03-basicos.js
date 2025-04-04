@@ -122,10 +122,27 @@ switch (opcion) {
         console.log("Invitado")
 } */
 
-    //Segun el valor de una variable temp, imprime
-    //Menos de 0: congelado
-    //0 a 18: frio
-    // 19 a 30: templado
-    //mas de 30: caluroso
 
-    //usar switch(true) {}
+//TAREA 
+//Segun el valor de una variable temp, imprime
+//Menos de 0: congelado
+//0 a 18: frio
+// 19 a 30: templado
+//mas de 30: caluroso
+
+//usar switch(true) {}
+
+let temperatura = 56
+switch (true) {
+    case (temperatura < 0):
+        console.log("Congelado")
+        break;
+    case (temperatura >= 0 && temperatura <= 18):
+        console.log("Frio")
+        break;
+    case (temperatura >= 19 && temperatura <= 30):
+        console.log("Templado")
+        break;
+    default:
+        console.log("Caluroso")
+}
