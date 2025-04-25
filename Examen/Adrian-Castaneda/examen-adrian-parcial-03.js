@@ -1,7 +1,7 @@
 // Examen de JavaScript – Nivel: Básico
 // Total: 15 preguntas (6 teóricas + 8 prácticas)
 
-// Parte 1: Teoría (7 preguntas)
+// Parte 1: Teoría (6 preguntas)
 // Responde con tus propias palabras o con fragmentos de código cortos.
 
 // ¿Cuál es la diferencia entre let, const  ¿En qué casos usarías cada uno?
