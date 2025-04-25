@@ -81,7 +81,7 @@
 
 // 14. ¿Qué es HTML y para qué sirve en una página web?
 
-// 15. ¿Qué diferencias hay entre una etiqueta <div> y una <span>?
+// 15. ¿Qué diferencias hay entre una etiqueta <div> y una <section>?
 
 // 16. ¿Para qué sirve el atributo class en HTML y cómo se usa en CSS?
 
@@ -91,7 +91,7 @@
 
 // 19. ¿Cuál es la diferencia entre id y class en CSS?
 
-// 20. ¿Qué es el modelo de caja (box model) en CSS? Explica sus partes.
+// 20. Menciona las 3 formas posibles de conectar tu css desde HTML.
 
 // 21. ¿Qué es Flexbox y para qué se usa?
 
