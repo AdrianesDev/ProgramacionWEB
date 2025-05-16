@@ -1,8 +1,3 @@
-// ================================
-// Examen de JavaScript + HTML/CSS
-// Nivel: Básico
-// Total: 3 Partes – 23 preguntas (6 teoría JS + 8 práctica JS + 9 teoría HTML/CSS)
-// Duración sugerida: 1 hora 30 minutos
 // Instrucciones:
 // 1. Responde todas las preguntas de forma clara y completa.
 // 2. Puedes usar fragmentos de código cuando sea necesario.
@@ -11,29 +6,42 @@
 // 5. Subir este examen contestado al repositorio de GitHub (Pull Request)
 // NOTA: EL EXAMEN NO SERA VALIDO SI NO SE SUBE AL REPOSITORIO, ES IMPORTANTE ASEGURARTE QUE NO ESTAS TRABAJANDO EN LA RAMA 'main', DEBERAS TRABAJAR EN LA RAMA CON TU NOMBRE, DE AHI HACER LOS CAMBIOS.
 // ================================
+// ------------------------------
+// Parte 1: HTML Básico (Teoría)
+// ------------------------------
 
+// 1. ¿Qué es HTML y para qué se utiliza en una página web?
+
+// 2. ¿Cuál es la estructura básica de un documento HTML? Menciona al menos 3 etiquetas esenciales y su función.
+
+// 3. ¿Qué diferencia hay entre una etiqueta de apertura y una de cierre?
+
+// 4. ¿Qué es una etiqueta semántica? Da un ejemplo y explica su utilidad.
+
+// ------------------------------
+// Parte 2: JavaScript – Teoría
+// ------------------------------
+
+// 5. ¿Qué es una variable en JavaScript y cómo se declara?
+
+// 6. ¿Cuál es la diferencia entre let, const y var?
+
+// 7. ¿Qué es una estructura condicional if y para qué sirve?
+
+// 8. ¿Cuándo utilizarías un switch en lugar de un if?
+
+// 9. Observa el siguiente fragmento de código. ¿Qué valor imprime y por qué?
+/*
+let edad = 18;
+if (edad >= 18) {
+  console.log("Mayor de edad");
+} else {
+  console.log("Menor de edad");
+}
+  */
 
 // ==============================
-// PARTE 1: TEORÍA – JavaScript (6 puntos)
-// ==============================
-
-// 1. ¿Cuál es la diferencia entre let, const y var? ¿En qué casos usarías cada uno?
-
-// 2. Explica la diferencia entre == y === con ejemplos.
-
-// 3. Enumera al menos 5 tipos de datos en JavaScript y da un ejemplo de cada uno.
-
-// 4. Menciona 3 operadores lógicos y explica brevemente qué hace cada uno.
-
-// 5. Menciona 3 operadores aritméticos básicos.
-
-// 6. ¿Qué valor devuelve el siguiente código? ¿Por qué?
-// let edad = 20;
-// console.log(edad > 18 && edad < 25);
-
-
-// ==============================
-// PARTE 2: PRÁCTICA – JavaScript (8 puntos)
+// PARTE 3: PRÁCTICA – JavaScript
 // ==============================
 
 // 7. Declara variables para representar un usuario con:
@@ -73,32 +81,3 @@
 // 19–30: "Templado"
 // Más de 30: "Caluroso"
 // (Usa switch(true))
-
-
-// ==============================
-// PARTE 3: TEORÍA – HTML y CSS (9 puntos)
-// ==============================
-
-// 14. ¿Qué es HTML y para qué sirve en una página web?
-
-// 15. ¿Qué diferencias hay entre una etiqueta <div> y una <section>?
-
-// 16. ¿Para qué sirve el atributo class en HTML y cómo se usa en CSS?
-
-// 17. Menciona al menos 3 etiquetas semánticas de HTML5 y explica su propósito.
-
-// 18. ¿Qué es CSS y cómo se relaciona con HTML?
-
-// 19. ¿Cuál es la diferencia entre id y class en CSS?
-
-// 20. Menciona las 3 formas posibles de conectar tu css desde HTML.
-
-// 21. ¿Qué es Flexbox y para qué se usa?
-
-// 22. Menciona al menos 3 propiedades de Flexbox que se aplican al contenedor (padre).
-
-
-// ==============================
-// Fin del examen
-// ¡Buena suerte!
-// ==============================
