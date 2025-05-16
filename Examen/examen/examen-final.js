@@ -8,7 +8,7 @@
 // 2. Puedes usar fragmentos de código cuando sea necesario.
 // 3. En la parte práctica, escribe el código como lo harías en un editor real.
 // 4. Puedes usar un editor online como JSPlayground, CodePen o tu entorno local.
-// 5. Subir este examen contestado al repositorio de GitHub (Pull Request)
+// 5. Subir este examen contestado al repositorio de GitHub (hacer Pull Request)
 // NOTA: EL EXAMEN NO SERA VALIDO SI NO SE SUBE AL REPOSITORIO, ES IMPORTANTE ASEGURARTE QUE NO ESTAS TRABAJANDO EN LA RAMA 'main', DEBERAS TRABAJAR EN LA RAMA CON TU NOMBRE, DE AHI HACER LOS CAMBIOS.
 // ================================
 
