@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}     
+
+body {
+background-color: #f8f8f8;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;    
+}
+
+.planes {
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.plan-card{
+background: white;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+
+.price {
+font-size: 24px;
+color: hsl(5, 100%, 50%);
+font-weight: bold;
+margin: 10px 0;    
+}
+
+.price span {
+    font-size: 16px;
+    color: #666;
+}
+
+ul li{
+font-size: 16px;
+margin: 5px 0;    
+}
+
+button{
+background-color: hsl(5, 100%, 50%);
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;   
+cursor: pointer;
+font-size: 16px;
+transition: background 0.3s ease; 
+}
+
+button:hover {
+background-color:crimson
+}
+
+
+.popular {
+    border: 3px solid #e65c4f; 
+    position: relative; 
+}
+
+.popular::before {
+    content: "Más Popular";  
+    position: absolute;     
+    top: -12px;             
+    left: 50%;               
+    transform: translateX(-50%); 
+    
+    background-color: #e65c4f; 
+    color: white;             
+    padding: 5px 10px;        
+    font-size: 14px;          
+    font-weight: bold;        
+    border-radius: 20px;      
+}
